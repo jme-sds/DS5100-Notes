@@ -1,0 +1,18 @@
+--- 
+title: "Programming for Data Science Notes"
+author: "John Michael Epperson"
+term: "Fall 2024"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  These are my notes for DS 5100: Programming for Data Science, Fall 2024 as taught by Professor Raf Alvarado.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# About
+
+These are my notes for DS 5100: Programming for Data Science, Fall 2024 as taught by Professor Raf Alvarado.
