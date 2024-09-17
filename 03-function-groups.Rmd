@@ -1,0 +1,68 @@
+# Python Functions
+
+## Introduction
+
+A function is a piece of code, separate from the larger program, that performs a task.
+
+They take input data and produce output data.
+
+* inputs are callaed **parameters** and **arguments** interchangeably.
+
+* outputs are called **return** values
+
+They are always written with **parentheses** at the end of their names, e.g. `len(some_list)` or `time()`
+
+Internally, they contain code to do their work
+
+## Imported Functions
+
+Imported functions make python more **modular, light, and customizable**.
+
+use `import` statements to import functions; i.e. `import math` as below
+
+```{python}
+import math
+
+math.log(256,2)
+```
+
+## User-Defined Functions
+
+Python makes it easy to make your own functions; as below
+
+```{python}
+def vals_greater_than_or_equal_to_threshold(vals, thresh):
+    '''
+    This is the "docstring" of a function. It is optional but expected. It describes it's 
+    purpose and the nature of the input and return values, as well as a sense of what it does.
+    More elaborate information should appear in external documentation packages with the function.
+    
+    PURPOSE: Given a list of values, compare each value against a threshold
+    
+    INPUTS
+    vals    list of ints or floats
+    thresh  int or float
+    
+    OUTPUT
+    bools  list of booleans
+    '''
+    
+    filtered_vals = [val >= thresh for val in vals]
+    
+    return filtered_vals
+```
+
+
+First there's the **docstring**, which describes the functions purpose and how to use it.
+
+Then there's the **body**, which contains the actual code which does the work.
+
+Finally, there's the **return** statement, which specifies the output of the function.
+
+The **function call** allows for the function to be used, consisting of the function name and required arguments.
+
+
+
+
+
+
